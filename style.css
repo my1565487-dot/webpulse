@@ -1,0 +1,111 @@
+body {
+  background-color: #FAF8F5; /* بيج فاتح وهادئ */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  font-size: 50px;
+  font-weight: bold;
+  color: #2C3E50; /* رمادي غامق */
+  text-align: center;
+  margin-top: 30px;
+}
+
+p {
+  font-size: 22px;
+  color: #34495E; /* رمادي غامق للنصوص */
+  text-align: center;
+  max-width: 800px;
+  margin: 20px auto;
+  line-height: 1.6;
+  padding: 0 15px;
+}
+
+.center-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 12px 0;
+}
+
+.account-btn, .youtube-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 28px;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.account-btn {
+  background-color: #2ECC71; /* أخضر هادئ */
+}
+
+.account-btn:hover {
+  background-color: #27AE60;
+}
+
+.youtube-btn {
+  background-color: #2C3E50; /* رمادي غامق متناسق */
+}
+
+.youtube-btn:hover {
+  background-color: #1A252F;
+}
+
+/* قسم الخدمات */
+.services {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.services h2 {
+  font-size: 36px;
+  color: #2C3E50; /* رمادي غامق */
+  margin-bottom: 30px;
+}
+
+.services-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: white;
+  width: 260px;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card i {
+  font-size: 40px;
+  color: #2ECC71; /* أخضر هادئ للأيقونات */
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  font-size: 22px;
+  color: #2C3E50; /* رمادي غامق */
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 16px;
+  color: #555;
+  margin: 0;
+}
